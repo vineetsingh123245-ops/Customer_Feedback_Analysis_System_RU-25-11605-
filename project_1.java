@@ -44,9 +44,10 @@ public class project_1 {
                     return "Good";
                 case 3:
                     return "Average";
-                case 1:
                 case 2:
                     return "Poor";
+                case 1:
+                    return "Bad";
                 default:
                     return "Invalid";
             }
